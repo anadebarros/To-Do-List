@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practical Todos</title>
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/972abddb96.js"></script>
+    <link rel="stylesheet" type="text/css" href="/main.css">
+  
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="inside-wrapper">
+
+    <div class="toggle">
+      <button onclick="handlers.toggleAll()"><span class="fa fa-list-alt" aria-hidden="true"></span></button>
+    </div>
+    
+    <div class="add">
+      <button onclick="handlers.addTodo()">Add</button>
+      <input id="addTodoTextInput" type="text">
+    </div>
+    
+    <div class="change">
+      <button onclick="handlers.changeTodo()">Change</button>
+      <input id="changeTodoPositionInput" type="number" placeholder="Item position">
+      <input id="changeTodoTextInput" type="text" placeholder="New item">
+    </div>
+    
+    <div class="completed">
+      <button onclick="handlers.toggleCompleted()">Completed</button>
+      <input id="toggleCompletedPositionInput" type="number" placeholder="Completed position">
+    </div>
+    </div>
+    </div>
+    
+    <ul>
+    </ul>
+    
+    </div>
+    
+    
+    <script src="/client.js"></script>
+  </body>
+</html>
