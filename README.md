@@ -1,7 +1,3 @@
-Welcome to Practical JavaScript!
-============================
+https://anadebarros.github.io/To-Do-List/
 
-This is the finished code for Version 9 of the
-application for Practical JavaScript.
-
-For more details, visit practicaljavascript.net.
+To Do List made with Vanilla JS, based on Practical Javascript online course (practicaljavascript.net)
