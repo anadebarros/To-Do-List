@@ -1,7 +1,3 @@
-Welcome to Practical JavaScript!
-============================
-
-This is the finished code for Version 9 of the
-application for Practical JavaScript.
+Todo List based on Practical JavaScript tutorial.
 
 For more details, visit practicaljavascript.net.

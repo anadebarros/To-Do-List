@@ -1,4 +1,5 @@
 var todoList = {
+  
   todos: [],
   addTodo: function(todoText) {
     this.todos.push({
@@ -85,9 +86,9 @@ var view = {
       var todoTextWithCompletion = '';
       if (todo.completed === true) {
       todoLi.style.listStyleImage = "url('https://cdn.gomix.com/f3e5613a-7938-4ef1-bf82-e53f32a5c23b%2Fchecked.svg')";
-        todoTextWithCompletion =  todo.todoText;
+        todoTextWithCompletion =  position+1 + ":" + " " + todo.todoText;
       } else {
-        todoTextWithCompletion =  todo.todoText;
+        todoTextWithCompletion =  position+1 + ":" + " " + todo.todoText;
       }
       todoLi.id = position;
       todoLi.textContent = todoTextWithCompletion;
